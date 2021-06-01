@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 
+        By default, links will appear as follows in all browsers:
+        An unvisited link is underlined and blue
+        A visited link is underlined and purple
+        An active link is underlined and red 
+        */
+
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--
+    HTML Links - Hyperlinks
+    HTML links are hyperlinks.
+    You can click on a link and jump to another document.
+    When you move the mouse over a link, the mouse arrow will turn into a little hand.
+    -->
+
+    <!-- HTML Links - Syntax -->
+    <a href="https://www.w3schools.com/">Visit W3Schools.com!</a><br>
+
+    <!--
+    HTML Links - The target Attribute
+    By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+    The target attribute specifies where to open the linked document.
+    The target attribute can have one of the following values:
+
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window
+    -->
+
+    <a href="https://www.w3schools.com/" target="_self">Self Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_blank">Blank Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_parent">Parent Visit W3Schools!</a><br>
+    <a href="https://www.w3schools.com/" target="_top">Top Visit W3Schools!</a><br>
+
+
+    <!-- Absolute URLs vs. Relative URLs -->
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.w3.org/">W3C</a></p><br>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <h2>Relative URLs</h2>
+    <p><a href="html_images.asp">HTML Images</a></p><br>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+    <!-- HTML Links - Use an Image as a Link -->
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+
+    <!-- Link to an Email Address -->
+    <a href="mailto:someone@example.com">Send email</a><br>
+
+    <!-- Button as a Link -->
+    <button onclick="document.location='default.asp'">HTML Tutorial</button><br>
+
+    <!-- Link Titles -->
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a><br>
+
+
+
+    <!-- Create a Bookmark in HTML -->
+    <h2 id="C4">Chapter 4</h2>
+    <a href="#C4">Jump to Chapter 4</a>
+    <a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+</body>
+
+</html>

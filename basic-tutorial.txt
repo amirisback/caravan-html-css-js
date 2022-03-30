@@ -1,0 +1,36 @@
+Website yang bagus?
+- Menarik orang tertuju pada itu
+- Informasi yang jelas
+- Mengunjungi Webiste, dia langsung tertarik
+- Mudah di pahami
+- Langsung tau fungsinya
+- Load yang cepat
+- Mudah di gunakan
+- Website Aman
+
+- Research 
+- Design
+- Implementasi
+- Deploy
+
+- Web Statis Berisi Informasi saja
+- Web Dinamis Berisi database 
+
+- Research tools :
+- Miro
+- Figma
+
+- Can't Unsee (Playing UI UX)
+
+
+- Riset
+1. Cari Referensi Website yang hampir sama min 5
+2. Tulis Section
+3. Informasinya harus bagus, runtut
+4. Header heading
+5. Schedule
+6. plugin goFullpage Chrome
+
+- Wireframing
+
+CTA (Call To Action)

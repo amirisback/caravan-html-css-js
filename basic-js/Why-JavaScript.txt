@@ -1,0 +1,7 @@
+- Gratis
+- Tidak perlu install
+- Tersedia di browser
+- Tujuan awalnya spesific untuk bahasa pemrograman web
+
+- javascript = bahasa scripting
+- bahasa javascript bahasa untype, bahasa yang bisa membuat variable dengan berbagai jenis variabel / jenis
